@@ -1,0 +1,13 @@
+{
+  "name": "tcfcan-listening-helper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TCFcan listening practice feedback userscript",
+  "scripts": {
+    "check": "node --check tcfcan-listening-helper.user.js",
+    "test": "node --test test-userscript.cjs"
+  },
+  "devDependencies": { "jsdom": "26.1.0" },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
